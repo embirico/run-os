@@ -1,6 +1,6 @@
 {
   "name": "run-os",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Selective cross-platform running of npm/yarn scripts",
   "main": "index.js",
   "author": "Alexander Embiricos <alexanderembiricos@gmail.com>",
