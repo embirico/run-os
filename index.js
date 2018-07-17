@@ -44,10 +44,10 @@ const parseArgs = args => {
 const runOS = args => {
 
     const [command, commandArgs, platforms] = parseArgs(args)
-    console.log({ command, commandArgs, platforms })
 
     if (platforms.includes(getPlatformOption())) {
 
+        console.log(`$$ ${command} ${commandArgs}`)
         const proc = spawn(command, commandArgs, {
             stdio: 'inherit',
         })
