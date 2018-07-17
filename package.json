@@ -1,0 +1,15 @@
+{
+  "name": "run-os",
+  "version": "0.0.1",
+  "description": "Selective cross-platform running of npm/yarn scripts",
+  "main": "index.js",
+  "author": "Alexander Embiricos <alexanderembiricos@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "run-os": "bin/run-os.js"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5"
+  }
+}
