@@ -47,7 +47,7 @@ const runOS = args => {
 
     if (platforms.includes(getPlatformOption())) {
 
-        console.log(`$$ ${command} ${commandArgs}`)
+        console.log(`$$ ${command} ${commandArgs.join(' ')}`)
         const proc = spawn(command, commandArgs, {
             stdio: 'inherit',
         })
